@@ -13,7 +13,7 @@ import java.util.ArrayList
 class ReanimatedTextPackage : ReactPackage {
   override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
     val viewManagers: MutableList<ViewManager<*, *>> = ArrayList()
-    viewManagers.add(JBTextViewManager())
+    viewManagers.add(JBAnimatedTextViewManager())
     return viewManagers
   }
 
